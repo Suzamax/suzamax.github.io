@@ -1,0 +1,35 @@
+baseURL = 'https://suzamax.one/'
+languageCode = 'en-us'
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 5
+title = 'Carlos Cañellas'
+theme = 'github.com/canstand/compost'
+
+# required
+[build]
+_merge = 'deep'
+
+# required
+[markup]
+_merge = 'deep'
+
+# for better seo
+[minify]
+_merge = 'deep'
+
+# required
+[module]
+_merge = 'deep'
+
+[params]
+colorScheme = "auto"
+
+[params.homepage]
+showRecent = true
+
+[params.article]
+showBreadcrumbs = true
+showEdit = true
+editURL = "https://github.com/canstand/compost/tree/main/exampleSite/content/"
+editAppendPath = true
