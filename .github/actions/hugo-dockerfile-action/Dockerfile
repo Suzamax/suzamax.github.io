@@ -1,6 +1,6 @@
-FROM alpine:3.16.2
+FROM alpine:3.20
 
-RUN apk add --no-cache hugo nodejs npm sass go git
+RUN apk add --no-cache hugo nodejs npm libsass go git
 
 WORKDIR /app
 COPY . /app
