@@ -2,5 +2,8 @@ FROM hugomods/hugo:dart-sass-go-git
 
 WORKDIR /app
 COPY . /app
+COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["hugo"]
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
