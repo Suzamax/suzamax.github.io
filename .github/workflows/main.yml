@@ -16,7 +16,7 @@ jobs:
         with:
           submodules: recursive
       - name: Build Site and deploy
-        uses: ./.github/actions/hugo-docker-action
+        uses: ./.github/actions/hugo-dockerfile-action
   deploy:
     runs-on: ubuntu-latest
     needs: build
