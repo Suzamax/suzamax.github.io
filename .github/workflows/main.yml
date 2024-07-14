@@ -1,30 +1,28 @@
-# name: learn-github-actions
-# run-name: ${{ github.actor }} is learning GitHub Actions
+name: deploy-hugo-page
+run-name: ${{ github.actor }} hugo site
 
-# on:
-#   push:
-#     branches:
-#       - master
-      
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout Repo
-#         uses: actions/checkout@master
-#         with:
-#           submodules: true
-#       - name: Build Site
-#         uses: chabad360/hugo-actions@master
-#         with:
-#           hugoVersion: 'extended_0.127.0'
-#       - name: ssh and compile newer version
-#         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
-#         with:
-#           # ssh remote host
-#           host: ${{ secrets.SUZAMAXONE_HOST }}
-#           # ssh remote user
-#           user: ${{ secrets.SUZAMAXONE_USER }}
-#           # content of ssh private key. ex raw content of ~/.ssh/id_rsa
-#           key: ${{ secrets.SUZAMAXONE_PEM }}
-       
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and deploy my Hugo site
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Build Site and deploy
+        uses: actions/hugo-docker-action@master
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
