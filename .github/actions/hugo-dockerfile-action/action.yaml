@@ -4,8 +4,3 @@ description: "Build and deploy hugo site to remote server"
 runs:
   using: "docker"
   image: "Dockerfile"
-  args:
-    - "build"
-    - "-t"
-    - "suzamax.one"
-    - "."
