@@ -1,4 +1,4 @@
-FROM hugomods/hugo:dart-sass-go-git
+FROM hugomods/hugo:dart-sass-node-git
 
 WORKDIR /app
 COPY . /app
