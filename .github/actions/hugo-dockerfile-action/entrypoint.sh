@@ -3,4 +3,4 @@
 hugo mod get -u
 hugo mod npm pack
 npm install
-hugo --gc --minify --renderStaticToDisk
+hugo --gc --minify
