@@ -23,7 +23,3 @@ Love them! My two cats are my passion, you could see them here on Instagram if y
 - [{{< icon "mastodon" >}}Mastodon](https://mastodon.social/@szmx)
 - [{{< icon "instagram" >}}Instagram](https://instagram.com/suzamax.one) (private!)
 - [{{< icon "threads" >}}Threads](https://threads.net/suzamax.one)
-
-# Further info
-
-Hello!
