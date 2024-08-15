@@ -1,5 +1,5 @@
 ---
-title: "How to create the smallest images for Docker/Podman?"
+title: "How to create the smallest images for Docker/Podman"
 date: 2024-08-15
 description: "An example with a C Hello World!"
 tags: ["podman", "docker", "C", "kubernetes"]
