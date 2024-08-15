@@ -52,6 +52,8 @@ CMD ["/prueba"]
 
 ## Build and run
 
+If you use Docker, remember to change `buildah` and `podman` to `docker`.
+
 ```bash
 cd ./<your-project>/
 buildah build . -t example-binary
