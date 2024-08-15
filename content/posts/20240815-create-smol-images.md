@@ -39,7 +39,7 @@ And when my binary with the static libraries is compiled I will store it in a **
 FROM alpine:3.20 as builder
 
 WORKDIR /opt
-RUN apk add clang musl-dev slirp4netns
+RUN apk add clang musl-dev
 
 COPY prueba.c /opt/prueba.c
 RUN gcc -static -static-libgcc prueba.c
