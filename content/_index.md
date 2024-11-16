@@ -11,7 +11,7 @@ I'm a geek that loves cats, cars and computers.
 
 # My Work
 
-I currently work for Mercedes-Benz as my main job. Other things I do are some research and hacky things such as Hackintosh, trying new Linux distros and some new paradigms for computing, such as web-first desktops and the likes.
+I currently work for Indra as my main job. Other things I do are some research and hacky things such as trying new Linux distros and keep learning some DevOps tools.
 
 # My Cats
 
@@ -19,7 +19,7 @@ Love them! My two cats are my passion, you could see them here on Instagram if y
 
 # Links
 
-- [{{< icon "github" >}}GitHub](https://github.com/suzamax)
-- [{{< icon "mastodon" >}}Mastodon](https://mastodon.social/@szmx)
-- [{{< icon "instagram" >}}Instagram](https://instagram.com/suzamax.one) (private!)
-- [{{< icon "threads" >}}Threads](https://threads.net/suzamax.one)
+- [{{< icon "github" >}}·GitHub](https://github.com/suzamax)
+- [{{< icon "mastodon" >}}·Mastodon](https://mastodon.social/@szmx)
+- [{{< icon "instagram" >}}·Instagram](https://instagram.com/suzamax.one)
+- [{{< icon "threads" >}}·Threads](https://threads.net/suzamax.one)
