@@ -20,6 +20,6 @@ Love them! My two cats are my passion, you could see them here on Instagram if y
 # Links
 
 - [{{< icon "github" >}}·GitHub](https://github.com/suzamax)
-- [{{< icon "mastodon" >}}·Mastodon](https://mastodon.social/@szmx)
+- [{{< icon "bluesky" >}}·BlueSky](https://bsky.app/profile/suzamax.one)
 - [{{< icon "instagram" >}}·Instagram](https://instagram.com/suzamax.one)
 - [{{< icon "threads" >}}·Threads](https://threads.net/suzamax.one)
