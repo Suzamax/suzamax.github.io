@@ -1,5 +1,5 @@
 ---
-title: "[STUB] Deploying a single node Kubernetes cluster with K3s"
+title: "[STUB] Deploying a single node Kubernetes cluster with k3s"
 date: 2025-01-01
 description: "Using ArgoCD, built-in Træfik, Cert-Manager and deploting a website"
 tags: ["k3s", "argocd", "traefik", "kubernetes"]
